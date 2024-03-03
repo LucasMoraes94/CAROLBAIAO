@@ -152,7 +152,6 @@ nav {
 }
 
 .header__container::before {
-  content:;
   position: absolute;
   bottom: 5rem;
   right: 1rem;
@@ -332,8 +331,6 @@ nav {
   padding: 2rem 0;
 }
 
-.class__content .section__header {
-}
 
 .class__content p {
   margin-bottom: 1rem;
@@ -387,10 +384,6 @@ nav {
 
 .join__card p {
   color: var(--text-light);
-}
-
-.price__card__container {
-
 }
 
 .price__grid {
@@ -546,7 +539,6 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: ; 
 }
 
 .footer__blur {
@@ -581,9 +573,6 @@ nav {
 .footer__socials a:hover {
   color: var(--white);
   background-color: var(--secondary-color);
-}
-
-.footer__col h4 {
 }
 
 .footer__col > a {
@@ -626,9 +615,6 @@ nav {
 
   .class__container {
     grid-template-columns: repeat(1, 1fr);
-  }
-
-  .class__image {
   }
 
   .price__grid {
