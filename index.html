@@ -1,6 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H513C56ZXH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-H513C56ZXH');
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -25,11 +34,11 @@
       </ul>
     </nav>
 
-    <header class="section__container header__container box" >
-      <div class="header__image box">
+    <header class="section__container header__container" >
+      <div class="header__image">
         <img src="assets/header.png" alt="header" />
       </div>
-      <div class="header__content box">      
+      <div class="header__content">      
         <h4>CONSULTORIA NUTRICIONAL</h4>
         <h1><span>CAROL </span> BAIÃO</h1>
         <p style="padding-bottom: 1rem;">
@@ -37,7 +46,7 @@
           Faça parte do time e transforme o seu corpo e a sua mente
           assim como mais de 500 alunos já fizeram e aprovaram.
         </p>
-        <a href="#price" class="btn box">Faça parte do time!</a>
+        <a href="#price" class="btn">Faça parte do time!</a>
       </div>
       <div class="header__content box">
         <h2 class="section__header" style="padding-top: 3rem;">QUEM SOU EU</h2>
@@ -107,31 +116,10 @@
         </div>
       </div>
 
-    </section>
-    <section class="section__container class__container">
-      <div class="class__image box">
-        <span class="bg__blur"></span>
-        <img src="assets/class-1.png" alt="class" class="class__img-1" />
-      </div>
-      <div class="class__content box">
-        <h2 class="section__header">TREINO PERSONALIZADO</h2>
-        <p>
-          O #TeamBaião também oferece o acompanhamento físico*,
-          através de planilhas períodicas de treino, totalmente
-          personalizado para o seu nível (iniciante, intermediário e
-          avançado) e objetivo. O acompanhamento é somente disponibilizado em conjunto com o 
-          plano nutricional. Caso tenha interesse, informe na hora de fechar o plano.<br>*Treino montado por profissional
-          de educação física devidamente registrado.</p>
-          <a href="#price" class="btn box">Faça parte do time!</a>
-      </div>
-      
-    </section>
-
-
     <section class="section__container price__container" id="price">
       <h2 class="section__header box">PLANOS</h2>
-      <h3 class="section__subheader box">Parcelamento em até 12x sem juros,
-      no cartão de crédito.<br>Desconto de 5% no PIX
+      <h3 class="section__subheader box">Parcelamento em até 12x,
+      no cartão de crédito¹.<br>Desconto de 5% no PIX
       </h3>
       <div class="price__grid" >
         <div class="price__card__container">
@@ -144,7 +132,7 @@
             <h3>R$ 159,00</h3>
             <p>
               <i class="ri-checkbox-circle-line"></i>
-              Plano nutricional personalizado
+              Distribuição de macros e lista de alimentos
             </p>
             <p>
               <i class="ri-checkbox-circle-line"></i>
@@ -180,7 +168,7 @@
         <div class="price__card box">
           <div class="price__card__content">
             <h4>Trimestral</h4>
-            <p>R$219,67 por mês*, economia de R$358,00. Valor total do plano: </p>
+            <p>R$219,67 por mês², economia de R$358,00. Valor total do plano: </p>
             <h3>R$ 659,00</h3>
             <p>
               <i class="ri-checkbox-circle-line"></i>
@@ -208,7 +196,7 @@
         <div class="price__card box">
           <div class="price__card__content">
             <h4>Semestral</h4>
-            <p>R$173,20 por mês*, economia de R$995,00. Valor total do plano: </p>
+            <p>R$173,20 por mês², economia de R$995,00. Valor total do plano: </p>
             <h3>R$ 1039,00</h3>
             <p>
               <i class="ri-checkbox-circle-line"></i>
@@ -236,7 +224,7 @@
         <div class="price__card box">
           <div class="price__card__content">
             <h4>Anual</h4>
-            <p>R$165,75 por mês*, economia de R$2079,00. Valor total do plano: </p>
+            <p>R$165,75 por mês², economia de R$2079,00. Valor total do plano: </p>
             <h3>R$ 1989,00</h3>
             <p>
               <p>
@@ -293,7 +281,7 @@
         <div class="price__card box">
           <div class="price__card__content">
             <h4>Trimestral</h4>
-            <p>R$329,70 por mês*, economia de R$628,00. Valor total do plano: </p>
+            <p>R$329,70 por mês², economia de R$628,00. Valor total do plano: </p>
             <h3>R$ 989,00</h3>
             <p>
               <i class="ri-checkbox-circle-line"></i>
@@ -324,10 +312,31 @@
         </div>
       </div>
       </div>
-      <p class="box" style="color: var(--white);">*Valor expresso por mês é feito dividindo o valor total pela quantidade de meses
+      <p class="box" style="color: var(--white);">
+        ¹Parcelamento com juros pagos pela parte contratante. Consulte simulação ao adquirir o plano escolhido.
+        ²Valores expressos por mês é calculado dividindo o valor total pela quantidade de meses
         do plano, simulando um parcelamento. O valor do plano, conforme disposto, é cobrado integralmente no ato da compra,
         podendo ser dividido em até 12x em todos os cartões, a critério do cliente.
       </p>
+    </section>
+      
+    </section>
+    <section class="section__container class__container">
+      <div class="class__image box">
+        <span class="bg__blur"></span>
+        <img src="assets/class-1.png" alt="class" class="class__img-1" />
+      </div>
+      <div class="class__content box">
+        <h2 class="section__header">TREINO PERSONALIZADO</h2>
+        <p>
+          O #TeamBaião também oferece o acompanhamento físico*,
+          através de planilhas períodicas de treino, totalmente
+          personalizado para o seu nível (iniciante, intermediário e
+          avançado) e objetivo. O acompanhamento é somente disponibilizado em conjunto com o 
+          plano nutricional. Caso tenha interesse, informe na hora de fechar o plano.<br>*Treino montado por profissional
+          de educação física devidamente registrado.</p>
+          <a href="#price" class="btn box">Faça parte do time!</a>
+        </div>
     </section>
 
     <section class="review">
